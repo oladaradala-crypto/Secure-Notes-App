@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+}
+
+.container{
+    width:600px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+}
+
+textarea{
+    width:100%;
+    padding:15px;
+    font-size:16px;
+    border-radius:10px;
+    box-sizing:border-box;
+    resize:none;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background-color:#0077b6;
+    color:white;
+}
+
+#savedNote{
+    background:#f8f8f8;
+    padding:15px;
+    border-radius:10px;
+    min-height:50px;
+}
