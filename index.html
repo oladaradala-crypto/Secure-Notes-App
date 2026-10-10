@@ -11,7 +11,16 @@
 <div class="container">
 
 <h1>Secure Notes App</h1>
+<div class="password-section">
+    <label for="notePassword">Encryption Password:</label>
 
+    <input
+        type="password"
+        id="notePassword"
+        placeholder="Enter a password to protect your note"
+        autocomplete="off"
+    >
+</div>
 <textarea
 id="noteInput"
 placeholder="Write your secure note here..."
@@ -23,7 +32,9 @@ rows="8">
 <button id="saveBtn">
 Save Note
 </button>
-
+<button id="unlockBtn">
+    Unlock Note
+</button>
 <button id="deleteBtn">
 Delete Note
 </button>
